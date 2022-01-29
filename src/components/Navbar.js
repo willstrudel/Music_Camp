@@ -21,6 +21,9 @@ const Navbar = () => {
                         <li>
                         <Link to="/contact" className="block py-2 px-4 text-sm text-black hover:bg-blue-400">Contact</Link>
                         </li>
+                        <li>
+                        <Link to="/register" className="block py-2 px-4 text-sm text-black hover:bg-blue-400">Register</Link>
+                        </li>
                     </ul>
                 </nav>
             </section>
@@ -28,6 +31,7 @@ const Navbar = () => {
                 <Link className="hover:bg-blue-200 rounded-md p-4" to="/">Home</Link>
                 <Link className="hover:bg-blue-200 rounded-md p-4" to="/about">About</Link>
                 <Link className="hover:bg-blue-200 rounded-md p-4" to="/contact">Contact</Link>
+                <Link className="hover:bg-blue-200 rounded-md p-4" to="/register">Register</Link>
             </div>
         </nav>
     </>

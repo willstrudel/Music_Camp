@@ -52,7 +52,8 @@ const Countdown = () => {
       <section className='timer'>
         <div>
             <span className='mdi mdi-calendar-clock timer-icon'></span>
-            <h2>Registration Deadline!</h2>
+            <h2>REGISTRATION DEADLINE!</h2>
+            <p>Reserve your spot today by completing the forms on our Register page!</p>
         </div>
         <div>
             <section>

@@ -40,14 +40,18 @@ body {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
     font-family: Jost;
     font-weight: 600;
     padding-top: 0.5em;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
 }
 
 .timer div:first-child p {
-    color: rgb(94, 204, 255);
+    color: rgb(0, 0, 0);
+    padding: 1em;
 }
 
 .timer div:last-child {
@@ -59,7 +63,7 @@ h2 {
 }
 
 section p:first-child, .timer div:last-child span {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 @media screen and (max-width: 480px) {
