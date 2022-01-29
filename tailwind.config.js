@@ -1,7 +1,5 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   theme: {
     extend: {
 
@@ -34,5 +32,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@themesberg/flowbite/plugin'),
+  ],
 }
