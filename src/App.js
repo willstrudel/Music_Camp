@@ -4,7 +4,7 @@ import './App.css';
 import About from './pages/about';
 import Home from './pages/home';
 import Contact from './pages/contact';
-import Navbar from './routes/Navbar';
+import Navbar from './components/Navbar';
 
 
 
@@ -18,8 +18,6 @@ export default function App() {
     <>
       <Router>
         <Navbar />
-        
-      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

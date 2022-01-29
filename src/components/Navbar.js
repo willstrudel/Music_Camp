@@ -7,10 +7,8 @@ const Navbar = () => {
         <nav className="flex justify-between items-center h-16 bg-red-200 text-black relative shadow-xl font-Jost font-bold" role="navigation">
             <Link to="/" className='pl-8 text-lg sm:text-2xl'>Hillharmonic ®</Link>
             <section className="px-6 cursor-pointer md:hidden">    
-                <button id="dropdownButton" data-dropdown-toggle="dropdown" className="text-black hover:bg-blue-400 focus:ring-2 focus:ring-blue-300 font-semibold rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center" type="button">Menu
-                    <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
+                <button id="dropdownButton" data-dropdown-toggle="dropdown" className="text-black hover:bg-blue-400 focus:ring-2 focus:ring-blue-400 font-semibold rounded-lg text-sm px-3 py-3 text-center inline-flex items-center" type="button">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
                 </button>
                 <nav id="dropdown" className="hidden z-50 w-44 text-base list-none border-2 bg-white rounded">
                     <ul aria-labelledby="dropdownButton">
