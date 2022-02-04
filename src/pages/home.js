@@ -23,7 +23,7 @@ const home = () => {
          animate={{ opacity: 1 }}
          transition={{ delay: .5, duration: 1 }}>
           <section className='grid grid-col justify-center items-center relative'>
-              <img className='p-0 sm:p-8 md:p-12 lg:p-20 shadow-xl' src={process.env.PUBLIC_URL + '../images/goldenbell2.jpg'} alt='GoldenBellLodge'></img>
+              <img className='p-0 sm:p-8 md:p-12 lg:p-20 shadow-xl' src={process.env.PUBLIC_URL + 'images/goldenbell2.jpg'} alt='GoldenBellLodge'></img>
           </section>
           </motion.section>
           <motion.section className="grid justify-center items-center"
