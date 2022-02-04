@@ -1,5 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
+import Register from '../pages/register';
 
 const Countdown = () => {
     const [timerDays, setTimerDays] = useState('00');
@@ -53,7 +55,7 @@ const Countdown = () => {
         <div>
             <span className='mdi mdi-calendar-clock timer-icon'></span>
             <h2>REGISTRATION DEADLINE!</h2>
-            <p>Reserve your spot today by completing the forms on our Register page!</p>
+            <p>Reserve your spot today by completing the forms on our <Link className='text-blue-600 hover:text-purple-700' to="/register">Register</Link> page!</p>
         </div>
         <div>
             <section>
