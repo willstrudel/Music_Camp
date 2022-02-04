@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Music_Camp/static/css/main.1268c625.css",
-    "main.js": "/Music_Camp/static/js/main.3f5d4ea7.js",
-    "static/js/787.ca841531.chunk.js": "/Music_Camp/static/js/787.ca841531.chunk.js",
-    "index.html": "/Music_Camp/index.html",
-    "main.1268c625.css.map": "/Music_Camp/static/css/main.1268c625.css.map",
-    "main.3f5d4ea7.js.map": "/Music_Camp/static/js/main.3f5d4ea7.js.map",
-    "787.ca841531.chunk.js.map": "/Music_Camp/static/js/787.ca841531.chunk.js.map"
+    "main.css": "/static/css/main.1268c625.css",
+    "main.js": "/static/js/main.8deb2b84.js",
+    "static/js/787.ca841531.chunk.js": "/static/js/787.ca841531.chunk.js",
+    "index.html": "/index.html",
+    "main.1268c625.css.map": "/static/css/main.1268c625.css.map",
+    "main.8deb2b84.js.map": "/static/js/main.8deb2b84.js.map",
+    "787.ca841531.chunk.js.map": "/static/js/787.ca841531.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1268c625.css",
-    "static/js/main.3f5d4ea7.js"
+    "static/js/main.8deb2b84.js"
   ]
 }
