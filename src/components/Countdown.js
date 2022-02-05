@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
-import Register from '../pages/register';
+
 
 const Countdown = () => {
     const [timerDays, setTimerDays] = useState('00');
